@@ -7,7 +7,7 @@ namespace KvadroUserApplication
 {
     static class SQLRequestsData
     {
-      //  public static string conStr = @"Data Source=DESKTOP-QA4157T\SQLEXPRESS;Initial Catalog=KvadroDataBase;Integrated Security=True";
+      //  public static string conStr = @"Data Source=DESKTOP-QA4157T\SQLEXPRESS;Initial Catalog=KvadroDataBase;Integrated Security=True"
         public static string conStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + Environment.CurrentDirectory + @"\KvadroDataBase.mdf;Integrated Security = True; Connect Timeout = 30";
     }
 
